@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CEPIT Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./src/img/cepit_ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script defer src="./src/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg  bg-dark  border-bottom border-body bg-azul" data-bs-theme="dark">
+        <div class="container-fluid">
+          <div class="d-flex flex-column justify-content-center align-items-left ">
+            <a href="http://127.0.0.1:5500/index.html">
+               <img src="./src/img/cepit.png" alt="Cepit Movies" >
+            </a>
+          </div>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Géneros
+                    </a>
+                    <ul class="dropdown-menu  bg-azul p-3">
+                      <div class="d-grid responsive-grid scrollable-dropdown">
+                        <a class="dropdown-item genre-link" data-genre="Todas" href="#">Todas</a>
+                        <a class="dropdown-item genre-link" data-genre="Action" href="#">Acción</a>
+                        <a class="dropdown-item genre-link" data-genre="Animation" href="#">Animación</a>
+                        <a class="dropdown-item genre-link" data-genre="Adventure" href="#">Aventura</a>
+                        <a class="dropdown-item genre-link" data-genre="Biography" href="#">Biografía</a>
+                        <a class="dropdown-item genre-link" data-genre="Sci-Fi" href="#">Ciencia Ficción</a>
+                        <a class="dropdown-item genre-link" data-genre="Comedy" href="#">Comedia</a>
+                        <a class="dropdown-item genre-link" data-genre="Crime" href="#">Crimen</a>
+                        <a class="dropdown-item genre-link" data-genre="Drama" href="#">Drama</a>
+                        <a class="dropdown-item genre-link" data-genre="Fantasy" href="#">Fantasía</a>
+                        <a class="dropdown-item genre-link" data-genre="War" href="#">Guerra</a>
+                        <a class="dropdown-item genre-link" data-genre="History" href="#">Histórica</a>
+                        <a class="dropdown-item genre-link" data-genre="Horror" href="#">Horror</a>
+                        <a class="dropdown-item genre-link" data-genre="Mystery" href="#">Misterio</a>
+                        <a class="dropdown-item genre-link" data-genre="Musical" href="#">Musical</a>
+                        <a class="dropdown-item genre-link" data-genre="Thriller" href="#">Policial</a>
+                        <a class="dropdown-item genre-link" data-genre="Romance" href="#">Romance</a>
+                      </div>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="input-group mb-3 contenedorBuscador ">
+                  <input type="search" class="form-control" placeholder="Buscar por Título..." id="inputBusqueda">
+                  <button class="btn btn-outline-secondary" type="button" id="botonBusqueda">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+            </div>
+        </div>
+      </nav>
+      
+    </header>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./src/img/simios2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="tituloPelis">El Planeta de los Simios: Nuevo Reino </h3>
+        <p>300 años después del reinado de César, un nuevo líder tiránico construye su imperio esclavizando a otros clanes de primates, un joven simio llamado Noa emprende un viaje desgarrador que lo hará cuestionar todo lo que sabía sobre el pasado y tomar decisiones que definirán el futuro tanto de simios como humanos.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./src/img/capamerica2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="tituloPelis">Capitán América: Un nuevo mundo</h3>
+        <p>Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./src/img/f12.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="tituloPelis">F1 la película</h3>
+        <p>El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section class="filtrado d-flex flex-column flex-md-row justify-content-start align-items-center ">
+  <div id="resultado" class=""></div>
+</section>
+    
+<section class=" row gap-4 col-sm-12   d-flex justify-content-center  contenedorCard ">
+ 
+  
+</section >
+      
+
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+    
+
+    
+   

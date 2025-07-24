@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Evita problemas con el tamaño */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(8, 15, 40);
+    height: 100vh; /* Asegura que el body ocupe toda la pantalla */
+    overflow-x: hidden;
+   
+}
+header{
+    
+    background-color: white;
+    text-align: center;
+    margin: 0,auto;
+    padding: 0;
+}
+
+
+header nav img{
+    width: 100%;
+    max-width: 150px;
+    margin: 0px;
+    margin-right: 40px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0px;
+
+}
+
+.tituloPelis{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0px;
+
+}
+
+.tituloPelisFiltro{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+
+}
+
+.contenedorCard{
+    margin: 20px 30px 10px 30px;
+    max-width: 95%;
+}
+
+.cardFondo{
+    background-color: rgb(48, 47, 47);
+    box-shadow: 5px 3px 3px rgba(5, 0, 0, 0.616);
+    width: 220px;
+    min-height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.modalFondo{
+    background-color: rgb(48, 47, 47);
+    box-shadow: 5px 3px 3px rgba(5, 0, 0, 0.616);
+}
+
+.textoBlanco{
+    color: white !important;
+}
+
+.textoJustificado {
+    text-align: justify !important;
+  }
+
+.imagenCard{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.nombreLink{
+    text-align: center;
+  justify-content: center;
+    font-size: 1em;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Fijar en 2 líneas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: white;
+  line-height: 1.2em; /* Espaciado entre líneas */
+  min-height: 2.4em; /* 2 líneas * line-height */
+}
+
+.nombreLink:hover{
+    color: chocolate !important;
+}
+
+.contenedorNombre{
+   padding: 0.5rem;
+  text-align: center;
+  min-height: 3.5rem; /* Asegura espacio visual estable */
+}
+
+.filtrado{
+    
+    background-color: rgb(48, 47, 47);
+    box-shadow: 5px 3px 3px rgba(5, 0, 0, 0.616);
+    padding-top: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bg-azul{
+    background-color: rgb(8, 15, 40) !important;
+}
+
+.responsive-grid {
+   grid-template-columns: 1fr;
+  display: grid;
+  gap: 0.5rem;
+ 
+  
+}
+
+/* Scroll vertical con altura máxima */
+.scrollable-dropdown {
+  max-height: 360px;       /* Cuando llega a 360px agrega un scroll vertical */
+  overflow-y: auto;
+}
+
+.contenedorBuscador{
+    width: 100%;
+    max-width: 30%;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2em;
+    }
+    .filtrado {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+    .contenedorBuscador{
+        max-width: 100%;
+}
+}
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+
+}
+
+@media (min-width: 576px) {  /* Desde pantallas pequeñas hacia arriba */
+  .responsive-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas ≥ 576px */
+  }
+ 
+}

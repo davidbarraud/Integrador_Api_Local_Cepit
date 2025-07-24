@@ -1,0 +1,92 @@
+COMANDOS:
+- npm init -y
+- npm install express cors
+- npm i --save-dev @types/cors
+- npm install -D typescript ts-node-dev @types/node @types/express
+- npm - fs // para instalar el fileservices para leer archivos JSON
+- npx tsc --init
+
+UTILS
+"dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/app.ts"
+
+Que es NPM?
+- manejador de dependdencias en Node.
+
+Que es una API?
+Es un Servicio - sistema que permite que aplicaciones se comuniquen entre sí.  
+Capa intermedia entre el Front y el Back.
+Provee informacion al frontend y a otros servicios, en diferentes formatos (JSON).
+1-Consumidor (FrontEnd)
+2- Api recibe consulta a la ruta
+3- Realiza Acción.
+4- Retorna mensaje con información
+
+
+Arquitecturas?
+
+Que es una Ruta?
+Es la forma en que se le pega a la API. Si tiene un método getUsers(), la ruta va a ser /get_users e invoca ese método.
+
+1. Consumidor usa el frontend.
+2. Api recibe consulta a la ruta.
+3. Se realiza la acción (se ejecuta el o los métodos)
+4. Retorna el mensaje con información, generalmente en formato JSON.
+
+Que es una RUTA?
+-Es el punto de entrada a la API la cual va a ejecutar el método asociado.
+/character, /
+
+Que es un VERBO?
+
+-ABM: ALTA-BAJA-MODIFICACIÓN (GET-POST-PUT)
+-CRUD: CREATE-READ-UPDATE-DELETE
+
+- Es una acción que le dice a la API cómo interactuar.
+- Se llaman GET, POST, PUT, DELETE y PATCH
+- GET: Obtener información desde la API. -/ - /clientes - /status/{id}
+- POST: Creación de nuevo recurso. - / - /client - /status
+- PUT/UPDATE: Modificación de un recurso existente. - /{id} - /cliente/{id} - /status/{id}
+- DELETE: Eliminación de un recurso. /{id}
+
+Que es Express
+Framework de node que nos simplifica la creación de una API
+
+Qué es CORS
+Son reglas que definen quien accede a la API o no o puede consumirla
+
+Que es un Controller?
+Punto de entrada a nuestra APi, encargada de recibir los request http y decidir que hacer.
+
+Que es Servicio
+    - Se encarga de contener toda la lógica  de negocio de nuestra API
+
+Qué es Inyección de Dependencias?
+- mediante esta herramienta, un framework nos instancia una clase para poder usarla en otra clase y así no tener que instanciarla manualmente.
+- inyecta una clase a otra clase y el mismo framework se encarga de instanciarlo para nosotros.
+
+Que es Models?
+- Es la capa de los datos donde se almacenan Clases persistentes y DTO
+
+Qué es DTO? Data Transfer Object
+- Nos permite abstraer informacion sensible. 
+
+
+Enunciado API 1
+Crear API inicial, el cual tenga 4 endpoints de verbo GET.
+2 endpoints proveen información propia.
+    1- Sin parametro
+    2- Con parametro
+
+2 endpoints deberán consumir una api pública
+
+
+MVC
+Modelo Vista Controlador
+
+Modelo: está relacionado con la base de datos.
+Class jugador
+
+Vista
+
+Controlador
+Es el punto de entrada de la APi. Es el que recibe todas las solicitudes http y muestra las rutas y decide qué hacer con los datos de entrada

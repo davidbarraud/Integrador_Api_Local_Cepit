@@ -1,0 +1,666 @@
+[
+  {
+    "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "duration": 142,
+    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+    "genre": [
+      "Drama"
+    ],
+    "rate": 9.3,
+    "synopsis": "Un banquero condenado injustamente por asesinato sobrevive en la prisión de Shawshank, donde forma profundas amistades, usa sus habilidades financieras para ganar el favor de funcionarios corruptos y planea en secreto una audaz fuga durante décadas. Su historia se convierte en un testimonio de esperanza y resiliencia frente a la injusticia sistémica."
+  },
+  {
+    "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "director": "Christopher Nolan",
+    "duration": 152,
+    "poster": "https://i.ebayimg.com/images/g/yokAAOSw8w1YARbm/s-l1200.jpg",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rate": 9,
+    "synopsis": "Batman forma una alianza con el nuevo fiscal del distrito de Gotham, Harvey Dent, para desmantelar el crimen organizado, pero sus esfuerzos se ven interrumpidos violentamente por el anárquico Joker, quien sumerge a la ciudad en el caos y obliga a Batman a enfrentar límites morales."
+  },
+  {
+    "id": "5ad1a235-0d9c-410a-b32b-220d91689a08",
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "duration": 148,
+    "poster": "https://m.media-amazon.com/images/I/91Rc8cAmnAL._AC_UF1000,1000_QL80_.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "rate": 8.8,
+    "synopsis": "Un ladrón experto que se especializa en infiltrarse en sueños recibe la tarea de implantar una idea en el subconsciente de un objetivo, lo que lo lleva a formar un equipo para un atraco de alto riesgo que difumina la realidad y el mundo onírico."
+  },
+  {
+    "id": "241bf55d-b649-4109-af7c-0e6890ded3fc",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "duration": 154,
+    "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "rate": 8.9,
+    "synopsis": "Historias interconectadas de criminales de Los Ángeles, sicarios, un boxeador y la esposa de un gánster se entrelazan en una narrativa no lineal llena de humor negro, diálogos filosóficos y giros violentos."
+  },
+  {
+    "id": "9e6106f0-848b-4810-a11a-3d832a5610f9",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
+    "duration": 142,
+    "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "rate": 8.8,
+    "synopsis": "Un hombre con bajo coeficiente intelectual relata su extraordinario viaje de vida, influyendo inadvertidamente en momentos clave de la historia estadounidense del siglo XX mientras persigue a su amor de toda la vida."
+  },
+  {
+    "id": "7e3fd5ab-60ff-4ae2-92b6-9597f0308d1",
+    "title": "Gladiator",
+    "year": 2000,
+    "director": "Ridley Scott",
+    "duration": 155,
+    "poster": "https://img.fruugo.com/product/0/60/14417600_max.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "rate": 8.5,
+    "synopsis": "Un general romano traicionado es esclavizado como gladiador, ascendiendo en las filas para desafiar al emperador corrupto que asesinó a su familia y tomó el poder."
+  },
+  {
+    "id": "c906673b-3948-4402-ac7f-73ac3a9e3105",
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "Lana Wachowski",
+    "duration": 136,
+    "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "rate": 8.7,
+    "synopsis": "Un hacker descubre que la humanidad está atrapada en una realidad simulada controlada por máquinas y se une a una rebelión para liberar a la humanidad, dominando la capacidad de manipular la Matrix."
+  },
+  {
+    "id": "b6e03689-cccd-478e-8565-d92f40813b13",
+    "title": "Interstellar",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "duration": 169,
+    "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "rate": 8.6,
+    "synopsis": "En una Tierra moribunda, astronautas viajan a través de un agujero de gusano en busca de un planeta habitable, enfrentando la dilatación del tiempo y misterios cósmicos mientras luchan por la supervivencia y el amor humano."
+  },
+  {
+    "id": "aa391090-b938-42eb-b520-86ea0aa3917b",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "director": "Peter Jackson",
+    "duration": 201,
+    "poster": "https://i.ebayimg.com/images/g/0hoAAOSwe7peaMLW/s-l1600.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "rate": 8.9,
+    "synopsis": "La batalla final por la Tierra Media se desarrolla mientras Frodo se acerca al Monte del Destino para destruir el Anillo Único, mientras Aragorn lidera fuerzas contra el ejército de Sauron en Minas Tirith."
+  },
+  {
+    "id": "2e6900e2-0b48-4fb6-ad48-09c7086e54fe",
+    "title": "The Lion King",
+    "year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "duration": 88,
+    "poster": "https://m.media-amazon.com/images/I/81BMmrwSFOL._AC_UF1000,1000_QL80_.jpg",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "rate": 8.5,
+    "synopsis": "Un joven príncipe león huye de su reino tras el asesinato de su padre, solo para regresar años después y reclamar su trono del traicionero tío."
+  },
+  {
+    "id": "04986507-b3ed-442c-8ae7-4c5df804f896",
+    "title": "The Avengers",
+    "year": 2012,
+    "director": "Joss Whedon",
+    "duration": 143,
+    "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "rate": 8,
+    "synopsis": "S.H.I.E.L.D. recluta a Iron Man, Capitán América, Hulk y otros superhéroes para formar un equipo y detener a Loki en su intento de subyugar la Tierra con un ejército alienígena."
+  },
+  {
+    "id": "7d2832f8-c70a-410e-8963-4c93bf36cc9c",
+    "title": "Jurassic Park",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "duration": 127,
+    "poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024",
+    "genre": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "rate": 8.1,
+    "synopsis": "Científicos que visitan un parque temático de dinosaurios clonados deben luchar por sobrevivir cuando fallan los sistemas de seguridad y los dinosaurios escapan."
+  },
+  {
+    "id": "ccf36f2e-8566-47f7-912d-9f4647250bc7",
+    "title": "Titanic",
+    "year": 1997,
+    "director": "James Cameron",
+    "duration": 195,
+    "poster": "https://i.pinimg.com/originals/42/42/65/4242658e6f1b0d6322a4a93e0383108b.png",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "rate": 7.8,
+    "synopsis": "Un artista sin dinero y una aristócrata se enamoran a bordo del desafortunado viaje inaugural del RMS Titanic, enfrentando barreras de clase y la inminente tragedia del barco."
+  },
+  {
+    "id": "8fb17ae1-bdfe-45e5-a871-4772d7e526b8",
+    "title": "The Social Network",
+    "year": 2010,
+    "director": "David Fincher",
+    "duration": 120,
+    "poster": "https://i.pinimg.com/originals/7e/37/b9/7e37b994b613e94cba64f307b1983e39.jpg",
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
+    "rate": 7.7,
+    "synopsis": "Mark Zuckerberg crea Facebook en Harvard, pero enfrenta batallas legales cuando sus amigos lo demandan por robo de propiedad intelectual y traición."
+  },
+  {
+    "id": "6a360a18-c645-4b47-9a7b-2a71babbf3e0",
+    "title": "Avatar",
+    "year": 2009,
+    "director": "James Cameron",
+    "duration": 162,
+    "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "rate": 7.8,
+    "synopsis": "Un marine parapléjico se infiltra entre el pueblo alienígena Na'vi de Pandora usando un cuerpo avatar, pero cambia de bando para defender su civilización contra la explotación humana."
+  },
+  {
+    "id": "0328f16e-6ad4-4764-b8f0-2d7a5d4f5cb1",
+    "title": "Die Hard",
+    "year": 1988,
+    "director": "John McTiernan",
+    "duration": 132,
+    "poster": "https://m.media-amazon.com/images/I/51+Eu24eFQL._AC_SY300_SX300_.jpg",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "rate": 8.2,
+    "synopsis": "Un oficial de la NYPD lucha solo contra terroristas que toman un rascacielos de Los Ángeles durante una fiesta navideña, mientras su esposa está entre los rehenes."
+  },
+  {
+    "id": "8398ac38-e411-4513-bb9f-f3c78d054130",
+    "title": "The Rear Window",
+    "year": 1954,
+    "director": "Alfred Hitchcock",
+    "duration": 112,
+    "poster": "https://m.media-amazon.com/images/I/81FA-25ugSL._AC_SL1500_.jpg",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "rate": 8.4,
+    "synopsis": "Un fotógrafo confinado en su apartamento con una pierna rota comienza a espiar a sus vecinos, sospechando que uno de ellos ha cometido un asesinato, lo que lo lleva a una peligrosa investigación."
+  },
+  {
+    "id": "68ca6d6c-f326-4ca4-a7e7-0c0bfb92413e",
+    "title": "Alien",
+    "year": 1979,
+    "director": "Ridley Scott",
+    "duration": 117,
+    "poster": "https://filmartgallery.com/cdn/shop/files/Alien-Vintage-Movie-Poster-Original-1-Sheet-27x41.jpg?v=1684645235",
+    "genre": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "rate": 8.4,
+    "synopsis": "La tripulación de una nave espacial comercial se enfrenta a una criatura extraterrestre mortal que los acecha tras investigar una señal de socorro."
+  },
+  {
+    "id": "02f15f52-fa0f-4d1d-a62c-2d35a197ca17",
+    "title": "The Prestige",
+    "year": 2006,
+    "director": "Christopher Nolan",
+    "duration": 130,
+    "poster": "https://i.pinimg.com/736x/4f/4d/fa/4f4dfabe5c46358c8d821bd2716e8186.jpg",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "rate": 8.5,
+    "synopsis": "Magos rivales se obsesionan destructivamente con superarse mutuamente, usando métodos cada vez más peligrosos que difuminan la ciencia y la ilusión."
+  },
+  {
+    "id": "a961e1e1-7a5e-4cb1-a697-7d3bf8dcf80d",
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "director": "Bryan Singer",
+    "duration": 106,
+    "poster": "https://image.tmdb.org/t/p/original/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg",
+    "genre": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "rate": 8.5,
+    "synopsis": "Un único sobreviviente relata cómo cinco criminales fueron manipulados por el mítico jefe criminal Keyser Söze en un atraco que terminó en masacre."
+  },
+  {
+    "id": "f0a5c4cb-7eb0-4c4b-8b7f-e3f855c3ac77",
+    "title": "Se7en",
+    "year": 1995,
+    "director": "David Fincher",
+    "duration": 127,
+    "poster": "https://m.media-amazon.com/images/I/61MOBBZJkmL._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "rate": 8.6,
+    "synopsis": "Dos detectives persiguen a un asesino en serie que usa los siete pecados capitales como motivos en sus crímenes, llevándolos a un clímax espeluznante."
+  },
+  {
+    "id": "1bfbe6c4-ec44-4943-ba43-6b53e83047d7",
+    "title": "Schindler's List",
+    "year": 1993,
+    "director": "Steven Spielberg",
+    "duration": 195,
+    "poster": "https://m.media-amazon.com/images/I/71vKAOMv8nL.jpg",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "rate": 8.9,
+    "synopsis": "El industrial alemán Oskar Schindler salva a más de mil refugiados judíos durante la Segunda Guerra Mundial al emplearlos en su fábrica, arriesgando su vida y fortuna."
+  },
+  {
+    "id": "fe68c8bb-fd88-4525-98f4-1bc27eeaf40b",
+    "title": "The Departed",
+    "year": 2006,
+    "director": "Martin Scorsese",
+    "duration": 151,
+    "poster": "https://m.media-amazon.com/images/I/510gCMld+uL._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "rate": 8.5,
+    "synopsis": "Un policía encubierto se infiltra en la mafia de Boston mientras un topo en la policía filtra información a la banda, creando un mortal juego del gato y el ratón."
+  },
+  {
+    "id": "39747774-40ba-4c84-8841-bc85da4d2801",
+    "title": "The Silence of the Lambs",
+    "year": "1991",
+    "duration": "118",
+    "director": "Jonathan Demme",
+    "poster": "https://images.justwatch.com/poster/304338085/s718/the-silence-of-the-lambs.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "rate": "8.6",
+    "synopsis": "Una joven cadete del FBI debe confiar en un asesino encarcelado y manipulador para recibir su ayuda en la captura de otro asesino en serie."
+  },
+  {
+    "id": "de46d8a4-4ff5-45b1-9a5b-d18b6adac370",
+    "title": "Inglorious Basterds",
+    "year": "2009",
+    "duration": "153",
+    "director": "Quentin Tarantino",
+    "poster": "https://images.justwatch.com/poster/121974617/s166/inglorious-basterds",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "rate": "8.3",
+    "synopsis": "Durante la ocupación nazi en Francia, un grupo de soldados judíos estadounidenses planea asesinar a líderes nazis, coincidiendo con los planes vengativos de una dueña de cine."
+  },
+  {
+    "id": "119a4ae3-e35f-4b6c-86a7-22473242f43b",
+    "title": "The Godfather",
+    "year": "1972",
+    "duration": "172",
+    "director": "Francis Ford Coppola",
+    "poster": "https://images.justwatch.com/poster/309947338/s718/o-poderoso-chefao.jpg",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "rate": "9.2",
+    "synopsis": "El patriarca envejecido de una dinastía criminal transfiere el control de su imperio clandestino a su hijo reacio, desatando una brutal guerra de mafias."
+  },
+  {
+    "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+    "title": "Fight Club",
+    "year": 1999,
+    "director": "David Fincher",
+    "duration": 139,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Drama"
+    ],
+    "rate": 8.8,
+    "synopsis": "Un oficinista insomne forma un club de peleas clandestino con un carismático vendedor de jabón, iniciando un movimiento caótico contra el consumismo con consecuencias violentas."
+  },
+  {
+    "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+    "title": "Parasite",
+    "year": 2019,
+    "director": "Bong Joon Ho",
+    "duration": 132,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_.jpg",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "rate": 8.6,
+    "synopsis": "Una familia pobre de Corea del Sur se infiltra en la vida de una familia rica, empleándose con ellos con consecuencias cada vez más desastrosas."
+  },
+  {
+    "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+    "title": "Whiplash",
+    "year": 2014,
+    "director": "Damien Chazelle",
+    "duration": 106,
+    "poster": "https://i.ebayimg.com/images/g/5PgAAOSwEKRhZOs7/s-l1200.jpg",
+    "genre": [
+      "Drama",
+      "Musical"
+    ],
+    "rate": 8.5,
+    "synopsis": "Un baterista de jazz ambicioso lucha bajo la instrucción abusiva de un perfeccionista que lo lleva al límite físico y mental."
+  },
+  {
+    "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "director": "Wes Anderson",
+    "duration": 99,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "rate": 8.1,
+    "synopsis": "Un legendario conserje de hotel europeo recluta a un joven botones para demostrar su inocencia tras ser incriminado por asesinato y perder una pintura renacentista invaluable."
+  },
+  {
+    "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "director": "Denis Villeneuve",
+    "duration": 164,
+    "poster": "https://m.media-amazon.com/images/I/71Rdbo9KB6L._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "rate": 8.0,
+    "synopsis": "Un replicante blade runner descubre un secreto que amenaza la sociedad, lo que lo lleva a buscar a Rick Deckard, desaparecido hace 30 años, en un futuro distópico."
+  },
+  {
+    "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "director": "George Miller",
+    "duration": 120,
+    "poster": "https://play-lh.googleusercontent.com/XujhcvV-Mt7BBheyIiY_yWaVZKutxuhZi17IXRvx2axroT4Y-yp0HRYsyQKNIuE9Cxwqaq9k5KeL-3eT1Ok6",
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "rate": 8.1,
+    "synopsis": "En un páramo postapocalíptico, Max se une a la Imperator Furiosa para huir de un líder tiránico con sus esposas cautivas, desatando una guerra en el desierto a alta velocidad."
+  },
+  {
+    "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+    "title": "The Green Mile",
+    "year": 1999,
+    "director": "Frank Darabont",
+    "duration": 189,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "rate": 8.6,
+    "synopsis": "Los guardias del corredor de la muerte descubren que un recluso posee habilidades curativas milagrosas, desafiando sus creencias sobre la justicia y la humanidad durante la Gran Depresión."
+  },
+  {
+    "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+    "title": "La La Land",
+    "year": 2016,
+    "director": "Damien Chazelle",
+    "duration": 128,
+    "poster": "https://m.media-amazon.com/images/I/91jrKX9xjQL.jpg",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Musical"
+    ],
+    "rate": 8.0,
+    "synopsis": "Un pianista de jazz y una actriz en ascenso persiguen sus sueños en Los Ángeles mientras enfrentan tensiones entre ambición, amor y compromiso artístico."
+  },
+  {
+    "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+    "title": "The Truman Show",
+    "year": 1998,
+    "director": "Peter Weir",
+    "duration": 103,
+    "poster": "https://www.originalfilmart.com/cdn/shop/files/truman_show_1998_original_film_art_76a66942-0f82-4533-8165-156ea9a1d5bb_5000x.jpg?v=1709162543",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "rate": 8.2,
+    "synopsis": "Un vendedor de seguros descubre que toda su vida es un programa de telerrealidad construido y transmitido en todo el mundo, llevándolo a desafiar al creador del show por su libertad."
+  },
+  {
+    "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "director": "Michel Gondry",
+    "duration": 108,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "rate": 8.3,
+    "synopsis": "Tras descubrir que su exnovia borró sus recuerdos, un hombre se somete al mismo procedimiento, pero revive su historia de amor en su mente, luchando por conservarla."
+  },
+  {
+    "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "director": "Coen Brothers",
+    "duration": 122,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "rate": 8.1,
+    "synopsis": "Un cazador encuentra el resultado sangriento de un trato de drogas y 2 millones de dólares, siendo perseguido por un asesino psicópata y un sheriff cansado por Texas."
+  },
+  {
+    "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "director": "Coen Brothers",
+    "duration": 117,
+    "poster": "https://fiu-original.b-cdn.net/fontsinuse.com/use-images/152/152128/152128.jpeg?filename=15727278%5D&call=url%5Bfile:product.chain%5D",
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "rate": 8.1,
+    "synopsis": "Un despreocupado jugador de bolos apodado 'The Dude' es confundido con un millonario del mismo nombre, quedando envuelto en un secuestro con nihilistas y criminales excéntricos."
+  },
+  {
+    "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+    "title": "Her",
+    "year": 2013,
+    "director": "Spike Jonze",
+    "duration": 126,
+    "poster": "https://artofthemovies.co.uk/cdn/shop/products/her_ds-os-resized-406675_72bbd040-e6f6-423e-81f9-cb33f6f41f25-240357.jpg?v=1689587509",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "rate": 8.0,
+    "synopsis": "Un escritor solitario desarrolla una relación emocional con un sistema operativo de inteligencia artificial diseñado para satisfacer sus necesidades, planteando preguntas complejas sobre el amor y la conciencia."
+  },
+  {
+    "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+    "title": "The Shining",
+    "year": 1980,
+    "director": "Stanley Kubrick",
+    "duration": 146,
+    "poster": "https://m.media-amazon.com/images/I/61ICKbhxRJL._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Horror",
+      "Drama"
+    ],
+    "rate": 8.4,
+    "synopsis": "Una familia se convierte en cuidadora de un hotel aislado durante el invierno, donde una presencia maligna lleva al padre a la violencia mientras su hijo psíquico tiene visiones horribles."
+  },
+  {
+    "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z7a8b9c0d",
+    "title": "Oldboy",
+    "year": 2003,
+    "director": "Park Chan-wook",
+    "duration": 120,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg",
+    "genre": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "rate": 8.4,
+    "synopsis": "Después de 15 años de encarcelamiento inexplicable, un hombre es liberado y tiene cinco días para identificar a su captor, buscando venganza mientras descubre un horroroso secreto."
+  },
+  {
+    "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z7a8b9c0d1e",
+    "title": "Amélie",
+    "year": 2001,
+    "director": "Jean-Pierre Jeunet",
+    "duration": 122,
+    "poster": "https://m.media-amazon.com/images/I/410XpOZSByS._AC_UF894,1000_QL80_.jpg",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "rate": 8.3,
+    "synopsis": "Una tímida camarera parisina orquesta pequeños actos de bondad para los demás mientras persigue un amor peculiar, cambiando vidas a través de intervenciones anónimas."
+  },
+  {
+    "id": "7q8r9s0t-1u2v-3w4x-5y6z-7a8b9c0d1e2f",
+    "title": "Birdman",
+    "year": 2014,
+    "director": "Alejandro González Iñárritu",
+    "duration": 119,
+    "poster": "https://www.originalfilmart.com/cdn/shop/products/birdman_2014_original_film_art_296bb27c-c97c-4e67-aa2e-328e46c05058_5000x.jpg?v=1613633043",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "rate": 7.7,
+    "synopsis": "Un actor venido a menos conocido por papeles de superhéroe intenta un regreso en Broadway, luchando contra su ego, conflictos familiares y críticas en una narrativa en plano secuencia."
+  },
+  {
+    "id": "8r9s0t1u-2v3w-4x5y-6z7a-8b9c0d1e2f3g",
+    "title": "Drive",
+    "year": 2011,
+    "director": "Nicolas Winding Refn",
+    "duration": 100,
+    "poster": "https://http2.mlstatic.com/D_NQ_NP_796687-MLA53583558990_022023-O.webp",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "rate": 7.8,
+    "synopsis": "Un conductor de acrobacias de Hollywood trabaja como chofer en crímenes, pero cuando un robo sale mal, protege a su vecina y su hijo de gánsteres brutales."
+  },
+  {
+    "id": "9s0t1u2v-3w4x-5y6z-7a8b-9c0d1e2f3g4h",
+    "title": "The Revenant",
+    "year": 2015,
+    "director": "Alejandro González Iñárritu",
+    "duration": 156,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_.jpg",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "rate": 8.0,
+    "synopsis": "Tras ser dado por muerto por un ataque de oso, un hombre de frontera sobrevive en la naturaleza salvaje para vengarse de los que lo traicionaron y mataron a su hijo."
+  },
+  {
+    "id": "0t1u2v3w-4x5y-6z7a-8b9c-0d1e2f3g4h5i",
+    "title": "Arrival",
+    "year": 2016,
+    "director": "Denis Villeneuve",
+    "duration": 116,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_.jpg",
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "rate": 7.9,
+    "synopsis": "Una lingüista es reclutada para descifrar la comunicación alienígena cuando naves espaciales aterrizan en la Tierra. Al aprender su lenguaje, adquiere la capacidad de percibir el tiempo de forma no lineal, revelando su futuro y tratando de prevenir una guerra global."
+  }
+]
